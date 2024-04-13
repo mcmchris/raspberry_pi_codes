@@ -1,3 +1,5 @@
+// Compile with gcc screen5.c -o screen5 -lm because the math library
+
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
