@@ -5,6 +5,7 @@
 #include <fcntl.h>
 #include <linux/fb.h>
 #include <sys/mman.h>
+#include <sys/ioctl.h>
 
 // 'global' variables to store screen info
 char *fbp = 0;
