@@ -5,6 +5,7 @@
 #include <fcntl.h>
 #include <linux/fb.h>
 #include <sys/mman.h>
+#include <sys/ioctl.h>
 
 // application entry point
 int main(int argc, char* argv[])
