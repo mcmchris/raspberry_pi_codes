@@ -88,8 +88,8 @@ int main(int argc, char* argv[])
     memcpy(&orig_var_info, &var_info, sizeof(struct fb_var_screeninfo));
 
     // Set variable info
-    var_info.xres = 480; //480; //320;
-    var_info.yres = 320; //280; //240;
+    var_info.xres = 320; //480; //320;
+    var_info.yres = 240; //280; //240;
     var_info.xres_virtual = var_info.xres;
     var_info.yres_virtual = var_info.yres;
     var_info.bits_per_pixel = 8;
