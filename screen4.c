@@ -29,7 +29,7 @@ void draw() {
 
     int x, y;
 
-    for (y = 0; y < (vinfo.yres / 2); y++) {
+    for (y = 0; y < (vinfo.yres); y++) {
         for (x = 0; x < vinfo.xres; x++) {
 
             // color based on the 16th of the screen width
