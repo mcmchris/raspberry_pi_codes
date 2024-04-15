@@ -7,7 +7,7 @@
 #include <sys/mman.h>
 #include <sys/ioctl.h>
 
-// application entry poin
+// application entry point
 int main(int argc, char* argv[])
 {
   int fbfd = 0;
