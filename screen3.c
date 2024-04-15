@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
 
 
   // Open the file for reading and writing
-  fbfd = open("/dev/fb0", O_RDWR);
+  fbfd = open("/sys/class/graphics/fb0", O_RDWR);
   if (!fbfd) {
     printf("Error: cannot open framebuffer device.\n");
     return(1);
